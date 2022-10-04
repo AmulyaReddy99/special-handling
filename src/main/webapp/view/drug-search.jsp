@@ -28,7 +28,7 @@
                 <h8 class="card-header">SEARCH BY DRUG</h8>
                 <div class="card-body">
 
-                    <form class="form-horizontal" method="get" role="form">
+                    <form class="form-horizontal" method="get" role="form" action="api/drug-search">
 
                         <div class="form-group row mx-md-n5">
                             <div class="col px-md-5">

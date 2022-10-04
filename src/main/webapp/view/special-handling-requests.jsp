@@ -77,36 +77,38 @@ uri="http://java.sun.com/jsp/jstl/core" %>
                         <div class="card-header">SPECIAL COMMENTS</div>
                         <div class="card-body">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content.</p>
-                            <table class="table table-condensed table-striped">
-                                <thead>
-                                  <tr>
-                                    <th>Product Name</th>
-                                    <th>Product Strength</th>
-                                    <th>Drug Indicator</th>
-                                    <th>Drug Level</th>
-                                    <th>Drug Level Value</th>
-                                    <th>Drug Category</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Created</th>
-                                  </tr>
-
-                                    <tbody>
-                                        <tr>
-                                            <td>Carlos</td>
-                                            <td>Mathias</td>
-                                            <td>Leme</td>
-                                            <td>SP</td>
-                                            <td>new</td>
-                                            <td>Carlos</td>
-                                            <td>Mathias</td>
-                                            <td>Leme</td>
-                                            <td>SP</td>
-                                        </tr>
-                                    </tbody>
-                                </thead>
-                            </table>
                         </div>
+                    </div>
+                    <div class="m-3">
+                      <table class="table table-condensed table-striped">
+                        <thead>
+                          <tr>
+                            <th>Product Name</th>
+                            <th>Product Strength</th>
+                            <th>Drug Indicator</th>
+                            <th>Drug Level</th>
+                            <th>Drug Level Value</th>
+                            <th>Drug Category</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Created</th>
+                          </tr>
+
+                            <tbody>
+                                <tr>
+                                    <td>Carlos</td>
+                                    <td>Mathias</td>
+                                    <td>Leme</td>
+                                    <td>SP</td>
+                                    <td>new</td>
+                                    <td>Carlos</td>
+                                    <td>Mathias</td>
+                                    <td>Leme</td>
+                                    <td>SP</td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                      </table>
                     </div>
                   </div>
                 </td>
@@ -140,36 +142,38 @@ uri="http://java.sun.com/jsp/jstl/core" %>
                         <div class="card-header">SPECIAL COMMENTS</div>
                         <div class="card-body">
                             <p class="card-text">With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content. With supporting text below as a natural lead-in to additional content.</p>
-                            <table class="table table-condensed table-striped">
-                                <thead>
-                                  <tr>
-                                    <th>Product Name</th>
-                                    <th>Product Strength</th>
-                                    <th>Drug Indicator</th>
-                                    <th>Drug Level</th>
-                                    <th>Drug Level Value</th>
-                                    <th>Drug Category</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
-                                    <th>Created</th>
-                                  </tr>
-
-                                    <tbody>
-                                        <tr>
-                                            <td>Carlos</td>
-                                            <td>Mathias</td>
-                                            <td>Leme</td>
-                                            <td>SP</td>
-                                            <td>new</td>
-                                            <td>Carlos</td>
-                                            <td>Mathias</td>
-                                            <td>Leme</td>
-                                            <td>SP</td>
-                                        </tr>
-                                    </tbody>
-                                </thead>
-                            </table>
                         </div>
+                    </div>
+                    <div class="m-3">
+                      <table class="table table-condensed table-striped">
+                        <thead>
+                          <tr>
+                            <th>Product Name</th>
+                            <th>Product Strength</th>
+                            <th>Drug Indicator</th>
+                            <th>Drug Level</th>
+                            <th>Drug Level Value</th>
+                            <th>Drug Category</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Created</th>
+                          </tr>
+
+                            <tbody>
+                                <tr>
+                                    <td>Carlos</td>
+                                    <td>Mathias</td>
+                                    <td>Leme</td>
+                                    <td>SP</td>
+                                    <td>new</td>
+                                    <td>Carlos</td>
+                                    <td>Mathias</td>
+                                    <td>Leme</td>
+                                    <td>SP</td>
+                                </tr>
+                            </tbody>
+                        </thead>
+                      </table>
                     </div>
                   </div>
                 </td>

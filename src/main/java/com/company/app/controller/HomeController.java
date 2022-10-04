@@ -25,4 +25,10 @@ public class HomeController {
     public String specialHandlingHistory() {
         return "special-handling-history";
     }
+
+    @RequestMapping("/add-special-handling")
+    public String addSpecialHandlingHistory() {
+        return "add-special-handling";
+    }
+
 }
