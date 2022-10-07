@@ -166,7 +166,7 @@ uri="http://java.sun.com/jsp/jstl/core" %>
         </table>
         
           <div class="mt-3">
-            <input type="button" class="btn btn-outline-dark" value="Close" />
+            <input type="button" class="btn btn-outline-dark" onclick="window.location='/'" value="Close" />
           </div>
         </div>
       </div>

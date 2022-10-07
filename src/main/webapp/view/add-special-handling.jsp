@@ -67,10 +67,10 @@
 
                         <tr>
                           <td colspan="12" class="p-0">
-                            <div class="accordian-body collapse" id="demo1">
-                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
-                            </div>
-                          </td>
+                          <div class="accordian-body collapse" id="demo1">
+                            <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
+                          </div>
+                        </td>
                         </tr>
 
                         <tr>
@@ -86,7 +86,7 @@
                         <tr>
                           <td colspan="12" class="p-0">
                             <div class="accordian-body collapse" id="demo2">
-                                <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                                <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
                             </div>
                           </td>
                         </tr>
@@ -109,7 +109,7 @@
                           <tr>
                             <td colspan="12" class="p-0">
                               <div class="accordian-body collapse" id="demo3">
-                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                                  <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
                               </div>
                             </td>
                           </tr>
@@ -127,7 +127,7 @@
                           <tr>
                             <td colspan="12" class="p-0">
                               <div class="accordian-body collapse" id="demo4">
-                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                                  <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
                               </div>
                             </td>
                           </tr>
@@ -151,7 +151,7 @@
                           <tr>
                             <td colspan="12" class="p-0">
                               <div class="accordian-body collapse" id="demo5">
-                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                                  <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
                               </div>
                             </td>
                           </tr>
@@ -169,7 +169,7 @@
                           <tr>
                             <td colspan="12" class="p-0">
                               <div class="accordian-body collapse" id="demo6">
-                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                                  <textarea class="form-control mt-3 mb-3" rows="2" placeholder="Enter Special Comments"></textarea>
                               </div>
                             </td>
                           </tr>
@@ -214,7 +214,7 @@
                   </div>
 
                   <div class="d-flex justify-content-between mt-3">
-                    <input type="button" class="btn" value="Cancel" />
+                    <input type="button" class="btn" onclick="window.location='/'" value="Cancel" />
                     <input type="submit" class="btn" value="Submit" />
                   </div>
 

@@ -63,7 +63,7 @@
                         <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
 
                         <div class="d-flex justify-content-between mt-3">
-                            <input type="button" class="btn btn-outline-dark" value="Cancel" />
+                            <input type="button" class="btn btn-outline-dark" onclick="window.location='/'" value="Cancel" />
                             <div>
                                 <input type="button" class="btn btn-primary" id="popUp" value="INCLUDE / EXCLUDE DRUG" data-toggle="modal" data-target="#myModal" />
                                 <input type="submit" class="btn btn-outline-dark" value="Submit" />
