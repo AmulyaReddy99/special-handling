@@ -68,13 +68,55 @@
                       </table>
                     </div>
                     <div id="menu1" class="tab-pane fade">
-                      
+                      <div id="home" class="tab-pane in active">
+                        <table class="table-striped table table-bordered w-100">
+                          <caption class="text-center" style="caption-side: top;"><strong>Non-Clinical Resources</strong></caption>
+                          <tr>
+                              <td class="col-1"><input type="checkbox" ></td>
+                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                     <div id="menu2" class="tab-pane fade">
-                      
+                      <div id="home" class="tab-pane in active">
+                        <table class="table-striped table table-bordered w-100">
+                          <caption class="text-center" style="caption-side: top;"><strong>Miscellenous Resources</strong></caption>
+                          <tr>
+                              <td class="col-1"><input type="checkbox" ></td>
+                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                     <div id="menu3" class="tab-pane fade">
-                      
+                      <div id="home" class="tab-pane in active">
+                        <table class="table-striped table table-bordered w-100">
+                          <caption class="text-center" style="caption-side: top;"><strong>Drug Level Resources</strong></caption>
+                          <tr>
+                              <td class="col-1"><input type="checkbox" ></td>
+                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                          <tr>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+                        </table>
+                      </div>
                     </div>
                   </div>
 
