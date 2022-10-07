@@ -20,12 +20,7 @@
 
     <body>
         <div class="container">
-            <div class="modal-header mb-3">
-                <h3>DRUG SEARCH</h3>
-            </div>
-
             <div class="card">
-                <h8 class="card-header">SEARCH BY DRUG</h8>
                 <div class="card-body">
 
                     <form class="form-horizontal" method="get" role="form" action="api/drug-search">

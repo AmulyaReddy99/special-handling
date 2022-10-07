@@ -65,7 +65,7 @@
                         <div class="d-flex justify-content-between mt-3">
                             <input type="button" class="btn btn-outline-dark" value="Cancel" />
                             <div>
-                                <input type="button" class="btn btn-primary" value="INCLUDE / EXCLUDE DRUG" />
+                                <input type="button" class="btn btn-primary" id="popUp" value="INCLUDE / EXCLUDE DRUG" data-toggle="modal" data-target="#myModal" />
                                 <input type="submit" class="btn btn-outline-dark" value="Submit" />
                             </div>
                         </div>
@@ -74,7 +74,26 @@
                 </div>
             </div>
 
+
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">DRUG SEARCH</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div id="loadModalBody" >
+                            <%@include file="drug-search.jsp" %>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </body>
 
 </html>
