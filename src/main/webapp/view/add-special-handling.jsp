@@ -56,30 +56,80 @@
                       <table class="table-striped table table-bordered w-100">
                         <caption class="text-center" style="caption-side: top;"><strong>Clinical Resources</strong></caption>
                         <tr>
-                            <td class="col-1"><input type="checkbox" ></td>
-                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          <td class="col-1"><input type="checkbox" ></td>
+                          <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                          <td 
+                            data-toggle="collapse"
+                            data-target="#demo1"
+                            class="accordion-toggle"
+                          ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
                         </tr>
+
+                        <tr>
+                          <td colspan="12" class="p-0">
+                            <div class="accordian-body collapse" id="demo1">
+                              <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                            </div>
+                          </td>
+                        </tr>
+
                         <tr>
                           <td class="col-1"><input type="checkbox" ></td>
                           <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                          <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          <td 
+                            data-toggle="collapse"
+                            data-target="#demo2"
+                            class="accordion-toggle"
+                          ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                        </tr>
+
+                        <tr>
+                          <td colspan="12" class="p-0">
+                            <div class="accordian-body collapse" id="demo2">
+                                <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                            </div>
+                          </td>
                         </tr>
                       </table>
                     </div>
                     <div id="menu1" class="tab-pane fade">
                       <div id="home" class="tab-pane in active">
                         <table class="table-striped table table-bordered w-100">
-                          <caption class="text-center" style="caption-side: top;"><strong>Non-Clinical Resources</strong></caption>
-                          <tr>
-                              <td class="col-1"><input type="checkbox" ></td>
-                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
-                          </tr>
+                          <caption class="text-center" style="caption-side: top;"><strong>Clinical Resources</strong></caption>
                           <tr>
                             <td class="col-1"><input type="checkbox" ></td>
                             <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                            <td 
+                              data-toggle="collapse"
+                              data-target="#demo3"
+                              class="accordion-toggle"
+                            ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+  
+                          <tr>
+                            <td colspan="12" class="p-0">
+                              <div class="accordian-body collapse" id="demo3">
+                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                              </div>
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td 
+                              data-toggle="collapse"
+                              data-target="#demo4"
+                              class="accordion-toggle"
+                            ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+  
+                          <tr>
+                            <td colspan="12" class="p-0">
+                              <div class="accordian-body collapse" id="demo4">
+                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                              </div>
+                            </td>
                           </tr>
                         </table>
                       </div>
@@ -87,16 +137,41 @@
                     <div id="menu2" class="tab-pane fade">
                       <div id="home" class="tab-pane in active">
                         <table class="table-striped table table-bordered w-100">
-                          <caption class="text-center" style="caption-side: top;"><strong>Miscellenous Resources</strong></caption>
-                          <tr>
-                              <td class="col-1"><input type="checkbox" ></td>
-                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
-                          </tr>
+                          <caption class="text-center" style="caption-side: top;"><strong>Clinical Resources</strong></caption>
                           <tr>
                             <td class="col-1"><input type="checkbox" ></td>
                             <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                            <td 
+                              data-toggle="collapse"
+                              data-target="#demo5"
+                              class="accordion-toggle"
+                            ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+  
+                          <tr>
+                            <td colspan="12" class="p-0">
+                              <div class="accordian-body collapse" id="demo5">
+                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                              </div>
+                            </td>
+                          </tr>
+  
+                          <tr>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td 
+                              data-toggle="collapse"
+                              data-target="#demo6"
+                              class="accordion-toggle"
+                            ><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                          </tr>
+  
+                          <tr>
+                            <td colspan="12" class="p-0">
+                              <div class="accordian-body collapse" id="demo6">
+                                  <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Special Comments"></textarea>
+                              </div>
+                            </td>
                           </tr>
                         </table>
                       </div>
@@ -104,20 +179,43 @@
                     <div id="menu3" class="tab-pane fade">
                       <div id="home" class="tab-pane in active">
                         <table class="table-striped table table-bordered w-100">
-                          <caption class="text-center" style="caption-side: top;"><strong>Drug Level Resources</strong></caption>
+                          <caption class="text-center" style="caption-side: top;"><strong>Clinical Resources</strong></caption>
                           <tr>
-                              <td class="col-1"><input type="checkbox" ></td>
-                              <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                              <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                            <td class="col-1"><input type="checkbox" ></td>
+                            <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
+                            <td><input type="button" class="btn btn-primary" id="popUp" value="" data-toggle="modal" data-target="#myModal" /></td>
                           </tr>
                           <tr>
                             <td class="col-1"><input type="checkbox" ></td>
                             <td class="col-10" scope="row">CUST IN REIMBURSEMENT PROGRAM</td>
-                            <td><a href="#"><span class="glyphicon glyphicon-comment"></span></a></td>
+                            <td><input type="button" class="btn btn-primary" id="popUp" value="" data-toggle="modal" data-target="#myModal" /></td>
                           </tr>
+
                         </table>
                       </div>
                     </div>
+                  </div>
+
+                  <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">DRUG SEARCH</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div id="loadModalBody" >
+                                <%@include file="drug-search.jsp" %>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-between mt-3">
+                    <input type="button" class="btn" value="Cancel" />
+                    <input type="submit" class="btn" value="Submit" />
                   </div>
 
                 </div>
