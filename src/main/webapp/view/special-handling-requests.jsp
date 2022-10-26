@@ -31,6 +31,40 @@ uri="http://java.sun.com/jsp/jstl/core" %>
         headers: {  'Access-Control-Allow-Origin': '*' },
         success: function (response) {
             console.log(response);
+            $.each(response.record.Response.Group.Membership.PatientData.Patient, function(i, val) {
+              var currRow = $("#tr0").clone().appendTo($('#items')).attr('id', "tr" + (i + 1));
+              currRow.find('td:eq(0)').attr("id", "row" + i + 1);
+              currRow.find('.startDate').html(val.SpecialHandling.EffectiveDate);
+              currRow.find('.endDate').html(val.SpecialHandling.EndDate);
+              currRow.find('.reasonDescription').html(val.SpecialHandling.ReasonCode);
+              currRow.find('.firstName').html(val.PersonNumber);
+              currRow.find('.lastName').html(val.PersonNumber);
+              currRow.find('.patientNumber').html(val.PersonNumber);
+              currRow.find('.created').html(val.SpecialHandling.InsertTMS);
+              currRow.find('.userId').html(val.SpecialHandling.InsertUserId);
+              currRow.find('.specialComments').html(val.SpecialHandling.CommentText);
+              currRow.find('.specialComments').html(val.Level);
+
+              var currRowDetails = $("#trdetails0").clone().appendTo($('#items')).attr("id", "itemdetails" + (i + 1));
+              currRowDetails.find('.specialComments').html(val.SpecialHandling.CommentText);
+              currRowDetails.find('.productName').html(val.PersonNumber);
+              currRowDetails.find('.productStrength').html(val.PersonNumber);
+              currRowDetails.find('.drugIndicator').html(val.SpecialHandling.DrugMarkerindicator);
+              currRowDetails.find('.drugLevel').html(val.SpecialHandling.Level);
+              currRowDetails.find('.drugLevelValue').html(val.SpecialHandling.Level);
+              currRowDetails.find('.drugCategory').html(val.SpecialHandling.DrugMarkerCatCode);
+              currRowDetails.find('.startDate').html(val.SpecialHandling.EffectiveDate);
+              currRowDetails.find('.endDate').html(val.SpecialHandling.EndDate);
+              currRowDetails.find('.created').html(val.SpecialHandling.InsertTMS);
+
+              currRowDetails.toggle();
+              $("#tr" + (i + 1)).click(function() {
+                $("#itemdetails" + (i + 1)).toggle();
+              });
+            });
+            var firstTr = $("#tr0").hide();
+            var firstItemDetail = $("#trdetails0").hide();
+            var specialComments = $("specialComments0").hide();
         },
         error: function (error) {
             console.log(error);
@@ -67,70 +101,66 @@ uri="http://java.sun.com/jsp/jstl/core" %>
               </tr>
             </thead>
 
-            <tbody>
-                <c:forEach items="${patientList}" var="patient">
-                  <tr
-                    data-toggle="collapse"
-                    data-target="#demo${patient.personNumber}"
-                    class="accordion-toggle"
-                  >
-                    <td><span class="glyphicon glyphicon-menu-right"></span></td>
-                    <td>${patient.specialHandling.effectiveDate}</td>
-                    <td>${patient.specialHandling.endDate}</td>
-                    <td>${patient.specialHandling.reasonCode}</td>
-                    <td>${patient.personNumber}</td>
-                    <td>${patient.personNumber}</td>
-                    <td>${patient.personNumber}</td>
-                    <td>${patient.specialHandling.insertTMS}</td>
-                    <td>${patient.specialHandling.insertUserId}</td>
-                    <td>${patient.specialHandling.commentText}</td>
-                    <td>${patient.specialHandling.level}</td>
-                  </tr>
+            <tbody id="items">
+              <tr id="tr0">
+                <td><span class="glyphicon glyphicon-menu-right"></span></td>
+                <td><a><div class="startDate"></div></a></td>
+                <td><a><div class="endDate"></div></a></td>
+                <td><a><div class="reasonDescription"></div></a></td>
+                <td><div class="firstName"></div></td>
+                <td><a><div class="lastName"></div></a></td>
+                <td><a><div class="patientNumber"></div></a></td>
+                <td><a><div class="created"></div></a></td>
+                <td><a><div class="userId"></div></a></td>
+                <td><div class="specialComments"></div></td>
+                <td><a><div class="specialComments"></div></a></td>
+              </tr>
 
-                  <tr>
-                    <td colspan="12" class="p-0" style="background-color: #b7ced8;">
-                      <div class="accordian-body collapse" id="demo${patient.personNumber}">
-                        <div class="card m-3 rounded">
-                            <div class="card-header">SPECIAL COMMENTS</div>
-                            <div class="card-body">
-                                <p class="card-text">${patient.specialHandling.commentText}</p>
-                            </div>
+
+              <tr id="trdetails0">
+                <td colspan="12" class="p-0" style="background-color: #b7ced8;">
+                  <div id="demo${patient.personNumber}">
+                    <div class="card m-3 rounded">
+                        <div class="card-header">SPECIAL COMMENTS</div>
+                        <div class="card-body">
+                            <p class="card-text specialComments"></p>
                         </div>
-                        <div class="m-3">
-                          <table class="table table-condensed table-striped">
-                            <thead>
+                    </div>
+                    <div class="m-3">
+                      <table class="table table-condensed table-striped">
+                        <thead>
+                          <tr>
+                            <th>Product Name</th>
+                            <th>Product Strength</th>
+                            <th>Drug Indicator</th>
+                            <th>Drug Level</th>
+                            <th>Drug Level Value</th>
+                            <th>Drug Category</th>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Created</th>
+                          </tr>
+
+                            <tbody id="itemDetails">
                               <tr>
-                                <th>Product Name</th>
-                                <th>Product Strength</th>
-                                <th>Drug Indicator</th>
-                                <th>Drug Level</th>
-                                <th>Drug Level Value</th>
-                                <th>Drug Category</th>
-                                <th>Start Date</th>
-                                <th>End Date</th>
-                                <th>Created</th>
+                                <td><a><div class="productName"></div></a></td>
+                                <td><a><div class="productStrength"></div></a></td>
+                                <td><a><div class="drugIndicator"></div></a></td>
+                                <td><div class="drugLevel"></div></td>
+                                <td><a><div class="drugLevelValue"></div></a></td>
+                                <td><a><div class="drugCategory"></div></a></td>
+                                <td><a><div class="startDate"></div></a></td>
+                                <td><a><div class="endDate"></div></a></td>
+                                <td><div class="created"></div></td>
                               </tr>
+                            </tbody>
+                        </thead>
+                      </table>
+                    </div>
+                  </div>
+                </td>
+              </tr>
 
-                                <tbody>
-                                    <tr>
-                                        <td>${patient.personNumber}</td>
-                                        <td>${patient.personNumber}</td>
-                                        <td>${patient.specialHandling.drugMarkerindicator}</td>
-                                        <td>${patient.specialHandling.level}</td>
-                                        <td>${patient.specialHandling.level}</td>
-                                        <td>${patient.specialHandling.drugMarkerCatCode}</td>
-                                        <td>${patient.specialHandling.effectiveDate}</td>
-                                        <td>${patient.specialHandling.endDate}</td>
-                                        <td>${patient.specialHandling.insertTMS}</td>
-                                    </tr>
-                                </tbody>
-                            </thead>
-                          </table>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </c:forEach>
             </tbody>
           </table>
 
